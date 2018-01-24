@@ -1,0 +1,144 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 100%;
+	padding-left: 20px;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.third-width {
+	width: 400px;
+  	border-width: 1px;
+  	border-color: rgb(222, 219, 220);
+  	border-style: solid;
+  	float: left;
+  	height: 210px;
+  	font-weight: bold;
+  	font-size: 16px;
+
+}
+
+.third-width h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/***** 	HEADER  *****/
+
+header h1 {
+	font-size: 30px;
+	color: #77a466;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+	padding-top: 48px;
+	padding-left: px;
+	margin: 0 0 40 0;
+}
+
+header span {
+	color: #000000;
+}
+
+nav {
+	padding-top: 60px;
+	padding-right: 50px;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #77a466;
+	padding-left: 20px;
+}
+
+#pic {
+	border-top: 4px solid #77a466;
+	border-bottom: 4px solid #77a466;
+}
+
+#beans {
+	width: 1200px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+}
+
+
+/*****  MAIN  *****/
+
+#problem {
+	width: 1200px;
+	float: left;
+}
+
+h2 {
+	color:#77a466;
+	font-weight: bold;
+}
+
+#welcome {
+	width: 1200px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#specials ul {
+	color: #77a457;
+	list-style-type: none;
+	line-height: 200%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+
+#reviews {
+	padding-left:25px;
+	margin-right: 0;
+}
+#reviews p {
+	width: 328px;
+	padding-right: 40px;
+}
+
+#contact h3 {
+	padding-left: 25px;
+}
+#contact p {
+	width: 190px;
+	padding-left: 30px;
+}
+
+
+/*****  FOOTER  *****/
+
+footer {
+	width:1200px;
+	float:left;
+}
+
+footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+footer span {
+	font-family: 'Dancing Script', cursive;
+	color: #77a466;
+}
